@@ -2,6 +2,8 @@ package practica1;
 
 import java.util.*;
 
+import static java.lang.Math.sqrt;
+
 public class Practica1 {
 
     //EJERCICIO 1
@@ -37,11 +39,18 @@ public class Practica1 {
     public static void separate (Set<Integer> cuadrados, Set<Integer> noCuadrados)  {
         //TODO
 
+        Set<Integer> conj = new HashSet<>(cuadrados);
+        conj.addAll(noCuadrados);
+
+
+
+
     }
 
     //EJERCICIO 3
     public static<T> Collection<Set<T>> divideInSets (Iterator<T> it) {
         //TODO
+
         return null;
     }
 
